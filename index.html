@@ -1,201 +1,404 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<meta name="author" content="">
-<title>OTOP - Relooking &amp; Coaching au top !</title>
-<!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<!-- Custom CSS -->
-<link href="css/theme.css" rel="stylesheet">
-<!-- Custom Fonts -->
-<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="2cb8ed07-6fae-46e3-a7a3-073309fff33e";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.im/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flosix - Bootstrap template, Creative One Page Template</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-<!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-<div class="container">
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-		<i class="fa fa-bars"></i>
-		</button>
-		<a class="navbar-brand page-scroll" href="index.html">
-		<b> <span class="text-pink"> <span id="o-logo">O</span></span>T<span class="text-bluegreen">O</span>P</b> </a>
-	</div>
-	<!-- Collect the nav links, forms, and other content for toggling -->
-	<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-		<ul class="nav navbar-nav">
-			<li>
-			<a href="#"><Acceuil></Acceuil></a>
-			</li>
-			<li>
-			<a href="#">Relooking</a>
-			</li>
-			<li>
-			<a href="#">Coaching</a>
-			</li>
-			<li>
-			<a href="#">Contact</a>
-			</li>
-		</ul>
-	</div>
-	<!-- /.navbar-collapse -->
-</div>
-<!-- /.container -->
-</nav>
-<!-- Intro Header -->
-<header class="intro">
-<div class="intro-body">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<h1 class="brand-heading">Change de <span class="text-pink">look</span>, change de <span class="text-bluegreen">vie</span>.</h1>
-				<p class="intro-text">
-					COACHING ET RELOOKING AU TOP POUR HOMMES &amp; FEMMES
-				</p>
-				<a href="#about" class="btn btn-circle page-scroll">
-				<i class="fa fa-angle-double-down animated"></i>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-</header>
-<!-- About Section -->
-<section id="about">
-<div class="container content-section text-center">
-	<div class="row container">
-		<h2 class="text-bluegreen">Votre look doit montrer qui vous êtes, ce que vous ressentez à ce moment précis, où vous allez.</h2>
-		<div class="col-lg-8 col-lg-offset-2">
-			<p>
-				Fini les tenues pas adaptées à la morphologie &amp; les couleurs qui ne vont pas au teint. Votre style vestimentaire reflete ce que vous êtes. <br>Soyez au top, votre vie en dépend.
-			</p>
-			<p>
-				<a href="#" class="btnghost"><b>RELOOKING</b></a>
-				<a href="#" class="btnghost" id="cta-home"><b>COACHING</b></a>
-			</p>
-		</div>
-	</div>
-</div>
+
+<body>
+<!-- header section -->
+<section class="banner" role="banner"> 
+  <!--header navigation -->
+  <header id="header">
+    <div class="header-content clearfix"> <a class="logo" href="#"><img src="images/logo.png" alt=""></a>
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#teams">Our Team</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+  <!--header navigation --> 
+  <!-- banner text -->
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="banner-text text-center">
+        <h1>Flosix</h1>
+        <p>Design Studio from Australia</p>
+        <nav role="navigation"> <a href="#services" class="banner-btn"><img src="images/down-arrow.png" alt=""></a></nav>
+      </div>
+      <!-- banner text --> 
+    </div>
+  </div>
 </section>
-<section id="portfolio" class="text-center">
-<h2 class="text-bluegreen container">Ils ont osez sauter le pas</h2> <br>
-<div class="gallery">
-	<ul>
-		<li class="col-md-3">
-		<a href="portfolio-item.html">
-		<img src="http://unsplash.it/680/380?random=1" alt="">
-		</a>
-		</li>
-		<li class="col-md-3">
-		<a href="portfolio-item.html">
-		<img src="http://unsplash.it/680/380?random=2" alt="">
-		</a>
-		</li>
-		<li class="col-md-3">
-		<a href="portfolio-item.html">
-		<img src="http://unsplash.it/680/380?random=3" alt="">
-		</a>
-		</li>
-		<li class="col-md-3">
-		<a class="image" href="portfolio-item.html">
-		<img src="http://unsplash.it/680/380?random=4" alt="">
-		</a>
-		</li>
-		<li class="col-md-3">
-		<a href="portfolio-item.html">
-		<img src="http://unsplash.it/680/380?random=5" alt="">
-		</a>
-		</li>
-		<li class="col-md-3">
-		<a href="portfolio-item.html">
-		<img src="http://unsplash.it/680/380?random=6" alt="">
-		</a>
-		</li>
-		<li class="col-md-3">
-		<a href="portfolio-item.html">
-		<img src="http://unsplash.it/680/380?random=7" alt="">
-		</a>
-		</li>
-		<li class="col-md-3">
-		<a href="portfolio-item.html">
-		<img src="http://unsplash.it/680/380?random=8" alt="">
-		</a>
-		</li>
-				<li class="col-md-3">
-		<a href="portfolio-item.html">
-		<img src="http://unsplash.it/680/380?random=10" alt="">
-		</a>
-		</li>
-		<li class="col-md-3">
-		<a href="portfolio-item.html">
-		<img src="http://unsplash.it/680/380?random=11" alt="">
-		</a>
-		</li>
-		<li class="col-md-3">
-		<a href="portfolio-item.html">
-		<img src="http://unsplash.it/680/380?random=12" alt="">
-		</a>
-		</li>
-		<li class="col-md-3">
-		<a href="portfolio-item.html">
-		<img src="http://unsplash.it/680/380?random=13" alt="">
-		</a>
-		</li>
-	</ul>
-</div>
+<!-- header section --> 
+<!-- about section -->
+<section id="intro" class="section intro no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <div class="col-md-6">
+              <div class="avatar"> <img src="images/intro-img1.jpg" alt="" class="img-responsive"> </div>
+            </div>
+            <div class="col-md-6">
+              <blockquote>
+                <h1>We create Awesome Branding</h1>
+                <p>Susan Sims, Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum.Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum. </p>
+                <p>Susan Sims, Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum. </p>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-6">
+              <div class="avatar"> <img src="images/intro-img2.jpg" alt="" class="img-responsive"> </div>
+            </div>
+            <div class="col-md-6">
+              <blockquote>
+                <h1>We create Digital Experience </h1>
+                <p>Susan Sims, Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum.Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum. </p>
+                <p>Susan Sims, Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum. </p>
+              </blockquote>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
-<!-- Contact Section -->
-<section id="contact">
-<div class="container content-section text-center">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2">
-			<h2>RESTEZ AU TOP !</h2>
-			
-			
-			<ul class="list-inline banner-social-buttons">
-				<li>
-				<a class="btn btnghost btn-lg" href="#"><i class="fa fa-instagram network-name" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				<a class="btn btnghost btn-lg" href="#"><i class="fa fa-facebook network-name" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				<a class="btn btnghost btn-lg" href="#"><i class="fa fa-twitter network-name" aria-hidden="true"></i></a>
-				</li>
-			</ul>
-		</div>
-	</div>
-</div>
+<!-- about section --> 
+
+<!-- services section -->
+<section id="services" class="services service-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 services"> <span class="icon icon-strategy"></span>
+        <div class="services-content">
+          <h5>Strategy & Consulting</h5>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services"> <span class="icon icon-briefcase"></span>
+        <div class="services-content">
+          <h5>corporate identity</h5>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services"> <span class="icon icon-tools"></span>
+        <div class="services-content">
+          <h5>web design and development</h5>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services"> <span class="icon icon-genius"></span>
+        <div class="services-content">
+          <h5>Branding</h5>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services"> <span class="icon icon-megaphone"></span>
+        <div class="services-content">
+          <h5>Digital marketing</h5>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services"> <span class="icon icon-trophy"></span>
+        <div class="services-content">
+          <h5>Promotion material</h5>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<!-- Footer -->
-<footer>
-<div class="container text-center">
-	<p class="credits">
-		Copyright 2017 &copy; OTOP | Relooking &amp; Coaching | LOVE U<br/>
-		
-	</p>
-</div>
+<!-- services section --> 
+<!-- work section -->
+<section id="works" class="works section no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-1.jpg" class="work-box"> <img src="images/work-1.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-2.jpg" class="work-box"> <img src="images/work-2.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-3.jpg" class="work-box"> <img src="images/work-3.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-4.jpg" class="work-box"> <img src="images/work-4.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-5.jpg" class="work-box"> <img src="images/work-5.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-6.jpg" class="work-box"> <img src="images/work-6.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-7.jpg" class="work-box"> <img src="images/work-7.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-8.jpg" class="work-box"> <img src="images/work-8.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-9.jpg" class="work-box"> <img src="images/work-9.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-10.jpg" class="work-box"> <img src="images/work-10.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-11.jpg" class="work-box"> <img src="images/work-11.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-12.jpg" class="work-box"> <img src="images/work-12.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+    </div>
+  </div>
+</section>
+<!-- work section --> 
+<!-- our team section -->
+<section id="teams" class="section teams">
+  <div class="container">
+    <div class="row"> 
+      <!-- team member 1 -->
+      <div class="col-md-4 col-sm-8">
+        <div class="person"> <img src="images/team-1.png" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>Johnathan Doe</h4>
+            <h5 class="role">The Mastermind</h5>
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- team member 1 --> 
+      <!-- team member 2 -->
+      <div class="col-md-4 col-sm-8">
+        <div class="person"> <img src="images/team-2.png" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>Lisa Brown</h4>
+            <h5 class="role">Creative head</h5>
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- team member 2 --> 
+      <!-- team member 3 -->
+      <div class="col-md-4 col-sm-8">
+        <div class="person"> <img src="images/team-3.png" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>Mike Collins</h4>
+            <h5 class="role">Technical lead</h5>
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- team member 1 --> 
+    </div>
+  </div>
+</section>
+<!-- our team section --> 
+<!-- Testimonials section -->
+<section id="testimonials" class="section testimonials no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <h1>"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Phasellus non dolor nibh. Nullam elementum Aenean eu leo quam..." </h1>
+                <p>Rene Brown, Open Window production</p>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <h1>"Cras dictum tellus dui, vitae sollicitudin ipsum. Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat shasellus non dolor nibh. Nullam elementum tellus pretium feugiat." </h1>
+                <p>Brain Rice, Lexix Private Limited.</p>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <h1>"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur...." </h1>
+                <p>Andi Simond, Global Corporate Inc</p>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elitPhasellus non dolor nibh. Nullam elementum tellus pretium feugiat. Cras dictum tellus dui sollcitudin." </h1>
+                <p>Kristy Gabbor, Martix Media</p>
+              </blockquote>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Testimonials section --> 
+<!-- Get a quote section -->
+<section id="contact" class="section quote">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h3>Looking for a new brand? Let's work together!</h3>
+      <a href="#" class="btn btn-large">Get Quotation</a> </div>
+  </div>
+</section>
+<!-- Get a quote section --> 
+<!-- Footer section -->
+<footer class="footer">
+  <div class="footer-top section">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-6">
+          <h5>Our Office Location</h5>
+          <p>Collins Street West Victoria 8007 Australia.<br>
+            1800 1234 56789 / 98532100987<br>
+            support@flosix.com</p>
+          <p>Copyright © 2015 Flosix Inc. All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
+        </div>
+        <div class="footer-col col-md-3">
+          <h5>Services We Offer</h5>
+          <p>
+          <ul>
+            <li><a href="#">Digital Strategy</a></li>
+            <li><a href="#">Websites</a></li>
+            <li><a href="#">Videography</a></li>
+            <li><a href="#">Social Media</a></li>
+            <li><a href="#">User Experience</a></li>
+          </ul>
+          </p>
+        </div>
+        <div class="footer-col col-md-3">
+          <h5>Share with Love</h5>
+          <ul class="footer-share">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer top --> 
+  
 </footer>
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-<!-- Plugin JavaScript -->
-<script src="js/jquery.easing.min.js"></script>
-<!-- Custom Theme JavaScript -->
-<script src="js/theme.js"></script>
+<!-- Footer section --> 
+<!-- JS FILES --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.flexslider-min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/main.js"></script>
 </body>
 </html>
