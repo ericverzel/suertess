@@ -116,7 +116,11 @@ ul li {
 	transition: padding 0.3s;
 }
 #header .logo {
+    position: relative;
+    top: 0;
 	float: left;
+    height: 50px;
+    width: 50px;
 }
 #header.fixed {
 	background-color: rgba(0, 0, 0, 1);
@@ -584,4 +588,24 @@ ul li {
 	color: #e84545;
 	font-size: 11px;
 	margin: 0 2px;
+}
+
+
+
+
+
+#logonav {
+    position: relative;
+    top: 0;
+	float: left;
+    height: 50px;
+    width: 50px;
+}
+
+#logo {
+    
+
+  position: absolute;
+    top: 0px;
+    left: 50px;
 }
